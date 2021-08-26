@@ -1,5 +1,5 @@
 /// <reference path="index.d.ts" />
-import { InputProps, OTPInputViewState } from '@twotalltotems/react-native-otp-input';
+import { InputProps, OTPInputViewState } from 'expo-otp-input';
 import React, { Component } from 'react'
 import { View, TextInput, TouchableWithoutFeedback, Keyboard, Platform, I18nManager, EmitterSubscription, } from 'react-native'
 import * as Clipboard from 'expo-clipboard';
